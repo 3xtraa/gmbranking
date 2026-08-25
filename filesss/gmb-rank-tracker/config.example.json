@@ -1,0 +1,20 @@
+{
+  "location": {
+    "label": "Barcelona centro",
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "zoom": 13
+  },
+  "maxResultsToScan": 20,
+  "headless": true,
+  "delayBetweenSearchesMs": [8000, 18000],
+  "businesses": [
+    {
+      "url": "https://share.google/1skNsjgFoLyo5NvC5"
+    },
+    {
+      "url": "https://maps.app.goo.gl/EjemploDeOtraFicha",
+      "keywords": ["cerrajero gracia barcelona", "cerrajero urgente gracia"]
+    }
+  ]
+}

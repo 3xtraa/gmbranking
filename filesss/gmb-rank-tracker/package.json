@@ -1,0 +1,17 @@
+{
+  "name": "gmb-rank-tracker",
+  "version": "1.0.0",
+  "description": "Monitor de posicionamiento local (Google Maps / Google My Business) con Playwright",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "install-browsers": "playwright install chromium",
+    "scrape": "node src/scraper.js",
+    "report": "node src/report.js",
+    "add-business": "node scripts/add-business.js",
+    "demo-report": "node src/report.js --data data/history.sample.jsonl --out dashboard.demo.html"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
